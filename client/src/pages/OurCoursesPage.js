@@ -123,7 +123,7 @@ function OurCourses() {
           </Text>
         )}
       </Center>
-      <Center mb="20">
+      <Center mt="10%" mb="3.2%">
         <Pagination
           total={courses.count}
           current={Number(searchParams.get("page")) || 1}
